@@ -1,0 +1,169 @@
+[gd_scene load_steps=33 format=3 uid="uid://hwpp2imejgew"]
+
+[ext_resource type="Texture2D" uid="uid://cfn81b68the1c" path="res://actual_slot0_albedo_bump.png" id="1_mu486"]
+[ext_resource type="Texture2D" uid="uid://cofym7umprkbl" path="res://drive-download-20251031T141726Z-1-001/Grounds_Path_20251029193253.png" id="2_4sjjy"]
+[ext_resource type="Texture2D" uid="uid://baqdh6xrxccdf" path="res://drive-download-20251031T141726Z-1-001/Grounds_Path_20251029185115.png" id="3_qxkuf"]
+[ext_resource type="Texture2D" uid="uid://dunyqgdsdx6dv" path="res://drive-download-20251031T141726Z-1-001/Grounds_Path_20251029193454.png" id="4_3m7v1"]
+[ext_resource type="Texture2D" uid="uid://dgb46xfidfoy4" path="res://drive-download-20251031T141726Z-1-001/Grounds_Path_20251029184854.png" id="5_gxpdo"]
+[ext_resource type="Texture2D" uid="uid://dir1cwj7u7kp6" path="res://Ground-20251101T140019Z-1-001/Path-Ground/Kopya ng path (SABI NI KUrT ANGELO HAVEN  DE CASTrO ISA NALANG DAW GAWIN KO THANKS)png.png" id="6_gxpdo"]
+[ext_resource type="Texture2D" uid="uid://00x0dkvx0lep" path="res://Ground-20251101T140019Z-1-001/Path-Ground/Untitled510_20251101201152.png" id="7_ry0lk"]
+[ext_resource type="Texture2D" uid="uid://b5mfyim60h2h0" path="res://Ground-20251101T140019Z-1-001/Path-Ground/Kopya ng Untitled510_20251101152357.png" id="8_k3xov"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gijdl"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3y61k"]
+albedo_texture = ExtResource("1_mu486")
+
+[sub_resource type="BoxMesh" id="BoxMesh_0nbch"]
+material = SubResource("StandardMaterial3D_3y61k")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ry0lk"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k3xov"]
+albedo_texture = ExtResource("2_4sjjy")
+
+[sub_resource type="BoxMesh" id="BoxMesh_2ta6f"]
+material = SubResource("StandardMaterial3D_k3xov")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2ac2d"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_80g3r"]
+albedo_texture = ExtResource("3_qxkuf")
+
+[sub_resource type="BoxMesh" id="BoxMesh_jpmjy"]
+material = SubResource("StandardMaterial3D_80g3r")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_84jim"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pmsec"]
+albedo_texture = ExtResource("4_3m7v1")
+
+[sub_resource type="BoxMesh" id="BoxMesh_8nl5g"]
+material = SubResource("StandardMaterial3D_pmsec")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3j1pv"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y2e0u"]
+albedo_texture = ExtResource("5_gxpdo")
+
+[sub_resource type="BoxMesh" id="BoxMesh_fghiu"]
+material = SubResource("StandardMaterial3D_y2e0u")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2ta6f"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ac2d"]
+albedo_texture = ExtResource("6_gxpdo")
+
+[sub_resource type="BoxMesh" id="BoxMesh_80g3r"]
+material = SubResource("StandardMaterial3D_2ac2d")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jpmjy"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_84jim"]
+albedo_texture = ExtResource("7_ry0lk")
+
+[sub_resource type="BoxMesh" id="BoxMesh_pmsec"]
+material = SubResource("StandardMaterial3D_84jim")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8nl5g"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pjqn5"]
+albedo_texture = ExtResource("8_k3xov")
+
+[sub_resource type="BoxMesh" id="BoxMesh_n407u"]
+material = SubResource("StandardMaterial3D_pjqn5")
+size = Vector3(2, 2, 2)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5810099, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5515746, 0, 0)
+shape = SubResource("BoxShape3D_gijdl")
+
+[node name="whoisaground" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5451064, 0, 0)
+mesh = SubResource("BoxMesh_0nbch")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.717834, 0, 3.1326652)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7395339, 0, 0)
+shape = SubResource("BoxShape3D_ry0lk")
+
+[node name="whatisaground" type="MeshInstance3D" parent="StaticBody3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.726099, 0, 0)
+mesh = SubResource("BoxMesh_2ta6f")
+
+[node name="StaticBody3D3" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.009054184, 0, -2.5512254)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D3"]
+shape = SubResource("BoxShape3D_2ac2d")
+
+[node name="kindaground" type="MeshInstance3D" parent="StaticBody3D3"]
+mesh = SubResource("BoxMesh_jpmjy")
+
+[node name="StaticBody3D4" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2169173, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D4"]
+shape = SubResource("BoxShape3D_84jim")
+
+[node name="smthground" type="MeshInstance3D" parent="StaticBody3D4"]
+mesh = SubResource("BoxMesh_8nl5g")
+
+[node name="StaticBody3D5" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0084505, 0, 0)
+shape = SubResource("BoxShape3D_3j1pv")
+
+[node name="otherground" type="MeshInstance3D" parent="StaticBody3D5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0054765, 0, 0)
+mesh = SubResource("BoxMesh_fghiu")
+
+[node name="StaticBody3D6" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.7508593)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D6"]
+shape = SubResource("BoxShape3D_2ta6f")
+
+[node name="holysheet" type="MeshInstance3D" parent="StaticBody3D6"]
+mesh = SubResource("BoxMesh_80g3r")
+
+[node name="StaticBody3D7" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.473682)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D7"]
+shape = SubResource("BoxShape3D_jpmjy")
+
+[node name="lighttrock" type="MeshInstance3D" parent="StaticBody3D7"]
+mesh = SubResource("BoxMesh_pmsec")
+
+[node name="StaticBody3D8" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.9660487)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D8"]
+shape = SubResource("BoxShape3D_8nl5g")
+
+[node name="darkrock" type="MeshInstance3D" parent="StaticBody3D8"]
+mesh = SubResource("BoxMesh_n407u")

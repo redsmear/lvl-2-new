@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://be3k51eolgj2h"]
+
+[ext_resource type="Texture2D" uid="uid://0a6pxj56alw2" path="res://Mountain -20251031T141633Z-1-001/Mountain/sand-mt2-nobg.png" id="1_cjmtw"]
+
+[node name="BrownMt2" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_cjmtw")

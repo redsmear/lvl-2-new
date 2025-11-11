@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://qcuobxbgf0dx"]
+
+[ext_resource type="Texture2D" uid="uid://b6xic66od2q8" path="res://stuff-from-lvl5/altar.png" id="1_hm6q3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eo3o5"]
+size = Vector2(29, 30)
+
+[node name="Altar" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(22.5, -14)
+shape = SubResource("RectangleShape2D_eo3o5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(22, -13.999999)
+scale = Vector2(0.083, 0.083)
+texture = ExtResource("1_hm6q3")

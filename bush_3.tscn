@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxtkr6axipudm"]
+
+[ext_resource type="Texture2D" uid="uid://y86cssqwxi5p" path="res://Bush-20251101T140142Z-1-001/Bush/bush1.png" id="1_ov0o0"]
+
+[node name="Bush3" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(101.5, 101.5)
+scale = Vector2(0.20703126, 0.20703126)
+texture = ExtResource("1_ov0o0")

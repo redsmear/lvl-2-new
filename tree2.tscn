@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bukpmx2nh5oe6"]
+
+[ext_resource type="Texture2D" uid="uid://3h7vgi5disfh" path="res://trees-20251101T140021Z-1-001/trees/acacia tree.png" id="1_q3tk5"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-25, -12.5)
+scale = Vector2(1.390625, 1.390625)
+texture = ExtResource("1_q3tk5")

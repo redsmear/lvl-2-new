@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://5cv52nfagxtj"]
+
+[ext_resource type="Texture2D" uid="uid://bhqqsoljkyyyd" path="res://trees-20251101T140021Z-1-001/trees/narra tree.png" id="1_brfkd"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_brfkd")

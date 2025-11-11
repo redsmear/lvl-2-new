@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj0biyorkjw06"]
+
+[ext_resource type="Texture2D" uid="uid://uj3vniyidi6i" path="res://stuff-from-lvl5/grassfr.png" id="1_4rajr"]
+
+[node name="BushBush" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(255, 170)
+scale = Vector2(0.16666667, 0.16666667)
+texture = ExtResource("1_4rajr")

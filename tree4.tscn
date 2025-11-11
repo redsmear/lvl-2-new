@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://5b4jb7jyedot"]
+
+[ext_resource type="Texture2D" uid="uid://di2gr4q3dax8w" path="res://trees-20251101T140021Z-1-001/trees/molave tree.png" id="1_1tgsc"]
+
+[node name="Tree4" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1tgsc")

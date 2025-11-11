@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgiq1u76et1xh"]
+
+[ext_resource type="Texture2D" uid="uid://ba03w7hpr11pf" path="res://Mountain -20251031T141633Z-1-001/Mountain/green-mt2-nobg.png" id="1_1fcav"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(37.499985, 37.5)
+scale = Vector2(1.465517, 1.465517)
+texture = ExtResource("1_1fcav")

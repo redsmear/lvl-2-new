@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://csyw8hbolcji2"]
+
+[ext_resource type="Script" uid="uid://cw4x3bmr30pu1" path="res://vines_climb.gd" id="1_k78s0"]
+[ext_resource type="Texture2D" uid="uid://b1k3rqr14nkh1" path="res://Vines-20251031T141630Z-1-001/Vines/Untitled30_20251029160525.png" id="2_lgsn2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j4dpc"]
+size = Vector2(22, 62)
+
+[node name="VinesClimb" type="Area2D"]
+script = ExtResource("1_k78s0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-3, -1)
+shape = SubResource("RectangleShape2D_j4dpc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_lgsn2")

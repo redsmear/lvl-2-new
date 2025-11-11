@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://1uxc7tv22387"]
+
+[ext_resource type="Texture2D" uid="uid://bhlh3no4k81we" path="res://trees-20251101T140021Z-1-001/trees/kamagong tree.png" id="1_vvv2l"]
+
+[node name="Tree3" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-19.5, -19.5)
+scale = Vector2(1.609375, 1.609375)
+texture = ExtResource("1_vvv2l")
